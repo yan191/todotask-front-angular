@@ -1,0 +1,29 @@
+<div class="task" *ngIf="!modoEdit; else edicao">
+  <input class="task-check" 
+         type="checkbox" 
+         [checked]="status"
+         (change)="checkTask($event.target.checked)">
+
+  <div class="task-tittle" (click)="toggleModo()">{{ titulo }}</div>
+
+  <div class="task-delete" (click)="deleteTask()" >excluir</div>
+
+</div>
+<ng-template #edicao>
+  <div class="task">
+      <input class="task-check" 
+      type="checkbox" 
+      [checked]="status"
+      (change)="checkTask()">
+
+      <input
+      class="task-tittle-edit"
+      type="text"
+      placeholder="Digite um novo titulo para a tarefa"
+      [value]="titulo"
+      (keyup)="titulo = $event.target.value"
+        >
+
+      <div class="task-save" (click)="saveTask()">salvar</div>
+  </div>
+</ng-template>

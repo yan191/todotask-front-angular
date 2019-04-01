@@ -1,0 +1,13 @@
+<div class="task-list" *ngIf="tasks.length > 0; else notasks">
+  <tt-task *ngFor="let task of tasks" 
+           [id]="task.id"
+           [titulo]="task.titulo"
+           [status]="task.status"
+  ></tt-task>
+</div>
+
+<ng-template #notasks>
+  <div class="task-list-mensagem">
+    <h1>Try add some tasks ;)</h1>
+  </div>
+</ng-template>

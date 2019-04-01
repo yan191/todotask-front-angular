@@ -1,0 +1,57 @@
+.new-task {
+    width: 500px;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.new-task input {
+    display: inline;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px 0px #393d3f;
+    padding: 5px;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    text-align: center;
+}
+
+.new-task-btn {
+    display: inline;
+    text-transform: uppercase;
+    background-color: #393d3f;
+    color: #fdfdff;
+    padding: 5px;
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+}
+
+.new-task-btn:hover {
+    cursor: pointer;
+    color: #62929e;
+}
+
+@media only screen and (max-width: 600px) {
+    .new-task input {
+        width:90vw;
+        display: block;
+        margin: auto;
+        border: none;
+        text-transform: uppercase;
+        box-shadow: 0px 0px 10px 0px #393d3f;
+        padding: 5px;
+        border-radius: 7.5px;
+        text-align: center;
+    }
+    .new-task-btn {
+        width: 90vw;
+        display: block;
+        margin: auto;
+        margin-top:10px;
+        text-transform: uppercase;
+        background-color: #393d3f;
+        color: #fdfdff;
+        padding: 5px;
+        border-radius:7.5px;
+    }
+}

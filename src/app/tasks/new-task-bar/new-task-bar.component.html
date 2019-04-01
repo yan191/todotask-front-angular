@@ -1,0 +1,12 @@
+<div class="new-task">
+
+  <input [value]="titulo"
+         (keyup)="setTitulo($event)"
+         type="texto"
+         placeholder="Digite um titulo">
+  <div class="new-task-btn"
+        (click)="newTask()">
+    add
+  </div>
+
+</div>

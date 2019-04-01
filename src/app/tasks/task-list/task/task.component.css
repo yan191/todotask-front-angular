@@ -1,0 +1,70 @@
+.task {
+    width: 500px;
+    max-width: 90%;
+    border: 1px solid #393d3f;
+    margin: auto;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #393d3f;
+}
+
+.task-check {
+    display: inline-block;
+    width: 10%;
+}
+
+.task-check:hover {
+    cursor: pointer;
+}
+
+.task-tittle {
+    width: 75%;
+    display: inline-block;
+    text-align: center;
+}
+
+.task-tittle-edit {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px 0px #393d3f;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.task-delete {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-size: 12.5px;
+    color: #f56c6c;
+}
+
+.task-delete:hover {
+    cursor: pointer;
+    color: #393d3f;
+}
+
+.task-save {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    font-size: 12.5px;
+    color: #67c23a;
+}
+
+.task-save:hover {
+    cursor: pointer;
+    color: #393d3f;
+}
+
+.task-done {
+    color: rgba(57, 61, 63, 0.5);
+    text-decoration: line-through;
+}

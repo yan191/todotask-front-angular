@@ -1,0 +1,17 @@
+.task-crud h1 {
+    font-size: 100px;
+    line-height: 50%;
+    color: #393d3f;
+}
+
+.task-crud h2 {
+    color: #393d3f;
+}
+
+.task-crud {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
